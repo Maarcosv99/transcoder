@@ -17,16 +17,9 @@
 		</style>
 	</head>
 	<body>
-		<video
-			id="video"
-			class="video-js"
-		>
+		<video id="video" class="video-js">
 			<source src="master.m3u8" type="application/x-mpegURL" />
 		</video>
-		
-		<!-- Run autoplay
-		<img autoplay preload="metadata" playsinline muted loop src="play_240p.mp4" alt="Video example" />
-		-->
 
 		<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 		<script src="https://unpkg.com/browse/@videojs/http-streaming@3.10.0/dist/videojs-http-streaming.min.js"></script>
@@ -41,8 +34,6 @@
 				loop: true,
 				muted: true
 			})
-			
-			player.play()
 		</script>
 	</body>
 </html>
